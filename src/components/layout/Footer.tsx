@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/images/logo.svg" // Replace with your logo path
+                src="/images/logo.jpeg" // Replace with your logo path
                 alt="Socialisthan Logo"
                 className="w-36"
               />
@@ -109,10 +109,11 @@ export default function Footer() {
           <p className="text-sm">
             &copy; 2024 Socialisthan. Powered by{" "}
             <Link
-              href="https://example.com"
+              href="https://github.com/Priyansh61"
+              target="_blank"
               className="text-sky-400 hover:underline"
             >
-              Socialisthan Team
+              Priyansh61
             </Link>
             .
           </p>

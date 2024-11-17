@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       id="home"
       aria-label="hero"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           {/* Hero Content */}
           <div className="hero-content text-center md:text-left">

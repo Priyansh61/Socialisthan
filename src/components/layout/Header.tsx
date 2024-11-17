@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { X, Menu } from "lucide-react"; // Ensure lucide-react is installed
 import {Button}  from "@/components/ui/button"; // Update path if needed
+import GetQuoteModal from "../modals/GetQuote";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,6 +11,7 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
@@ -49,9 +51,7 @@ const Header: React.FC = () => {
 
           {/* Desktop CTA Button */}
           <div className="hidden md:block">
-            <Button size="sm" className="bg-sky-500 hover:bg-sky-600">
-              Get a Quote
-            </Button>
+            <GetQuoteModal />
           </div>
 
           {/* Mobile Menu Button */}
