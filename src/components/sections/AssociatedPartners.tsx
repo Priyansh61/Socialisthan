@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { CheckCircle } from 'lucide-react'
 
 const partners = [
-  { name: "TechCorp", logo: "/images/manuj sir.png" },
+  { name: "TechCorp", logo: "/images/partner-11.png" },
   { name: "InnovateSoft", logo: "/images/partner-2.png" },
   { name: "GlobalMedia", logo: "/images/partner-3.jpeg" },
   { name: "DataDynamics", logo: "/images/partner-6.png" },

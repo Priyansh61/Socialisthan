@@ -10,20 +10,20 @@ const testimonials = [
   {
     name: "Abhishek Bhardwaj",
     position: "Anchor & Singer",
-    image: "/images/acher and siger.jpg",
-    quote: "Socialisthan has truly elevated my digital presence! Their creative strategies and consistent efforts have helped me connect with a wider audience. I’m thrilled with the results and grateful for their dedication. Highly recommended for anyone looking to grow online!"
+    image: "/images/panter13.jpg",
+    quote: "Socialisthan has truly elevated my digital presence! Their creative strategies and consistent efforts have helped me connect with a wider audience. I’m thrilled with the results and grateful for their dedication."
   },
   {
     name: "Dr Manuj Joshi",
     position: "Physiotherapist",
-    image: "/images/doctar.jpg",
-    quote: "Working with Socialisthan has been a pleasure! Their attention to detail and creative approach have helped me gain a strong digital presence. I highly recommend their services"
+    image: "/images/parnter9.jpg",
+    quote: "Working with Socialisthan has been a pleasure! Their attention to detail and creative approach have helped me gain a strong digital presence. I highly recommend their services. Highly recommended and grateful!"
   },
   {
-    name: "Rohit singh",
+    name: "Rohit singh shekhawat",
     position: "Web developer",
-    image: "/images/kushal singh.jpg",
-    quote: "Socialisthan has done an excellent job with my web development project. Their dedication and attention to detail really impressed me, and the results exceeded my expectations. They’re professional, creative, and great to work with. Highly recommended!"
+    image: "/images/parnter10.jpg",
+    quote: "Socialisthan has done an excellent job with my web development project. Their dedication and attention to detail really impressed me, and the results exceeded my expectations. Highly recommended and grateful!"
   }
 ]
 
