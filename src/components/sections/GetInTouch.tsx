@@ -24,7 +24,7 @@ export default function CTA() {
           Are You Ready? Let's Get to Work!
         </h2>
         <Link
-          href="#"
+          href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
           className="inline-block px-6 py-3 bg-sky-500 text-white font-medium text-lg rounded-lg shadow hover:bg-sky-600 transition"
         >
           Get Started
