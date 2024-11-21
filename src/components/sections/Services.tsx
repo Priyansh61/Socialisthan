@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { BarChart, Globe, Megaphone, PenTool, Search, Zap } from 'lucide-react'
+import { BarChart, Globe, Megaphone, PenTool, Search, Zap,Palette,Video } from 'lucide-react'
 
 const services = [
   {
@@ -34,6 +34,16 @@ const services = [
     title: "Conversion Rate Optimization",
     description: "Optimization of your digital assets to maximize conversions, turning visitors into customers and improving your ROI.",
     icon: Zap
+  },
+  {
+    title: "Graphic Designing",
+    description: "Graphic designing is the art of creating visual content to communicate messages effectively. It combines creativity, typography, color, and imagery to design everything from logos and branding to digital media and print materials, enhancing visual appeal and functionality.",
+    icon: Palette
+  },
+  {
+    title: "Video Production",
+    description: "Video production is the process of creating video content from start to finish, including planning, filming, and editing. It involves crafting visually engaging stories to communicate messages, entertain, or promote ideas effectively.",
+    icon: Video
   }
 ]
 
@@ -43,7 +53,7 @@ export default function ServicesSection() {
   const visibleServices = showAll ? services : services.slice(0, 3)
 
   return (
-    <section className="w-full py-12 bg-white">
+    <section  id='services' className="w-full py-12 bg-white">
       <div className="container px-4 md:px-6 mx-auto">
       <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Services</h2>
@@ -53,7 +63,7 @@ export default function ServicesSection() {
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {visibleServices.map((service, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
+            <div key={index} className="flex flex-col items-center text-center ">
               <div className="mb-4">
                 <service.icon className="h-8 w-8 text-gray-800" />
               </div>

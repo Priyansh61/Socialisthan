@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/images/logo.jpeg" // Replace with your logo path
+                src="/images/logo.svg" // Replace with your logo path
                 alt="Socialisthan Logo"
                 className="w-36"
               />
@@ -28,34 +28,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="https://facebook.com"
+                  href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
                   className="flex items-center hover:text-sky-400"
                 >
-                  <ion-icon name="logo-facebook" class="mr-3 text-xl"></ion-icon>
-                  Facebook
+                  <ion-icon name="logo-Whatsapp" class="mr-3 text-xl"></ion-icon>
+                  Whatsapp
                 </Link>
               </li>
+              
+              
               <li>
                 <Link
-                  href="https://twitter.com"
-                  className="flex items-center hover:text-sky-400"
-                >
-                  <ion-icon name="logo-twitter" class="mr-3 text-xl"></ion-icon>
-                  Twitter
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://linkedin.com"
-                  className="flex items-center hover:text-sky-400"
-                >
-                  <ion-icon name="logo-linkedin" class="mr-3 text-xl"></ion-icon>
-                  LinkedIn
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/socialisthan?igsh=MTlxdHU5eTBuOXVnMA=="
                   className="flex items-center hover:text-sky-400"
                 >
                   <ion-icon name="logo-instagram" class="mr-3 text-xl"></ion-icon>
@@ -77,7 +61,7 @@ export default function Footer() {
                   href="mailto:hello@socialisthan.com"
                   className="hover:text-sky-400 block"
                 >
-                  hello@socialisthan.com
+                  socialisthan2024@gmail.com
                 </a>
               </li>
               <li>
@@ -86,7 +70,8 @@ export default function Footer() {
                   href="tel:+123456789"
                   className="hover:text-sky-400 block"
                 >
-                  +123 456 789
+                  + 91-6377266348 ,
+                  + 91-7597842278
                 </a>
               </li>
             </ul>
@@ -98,8 +83,7 @@ export default function Footer() {
               Address
             </h5>
             <p className="text-sm leading-relaxed">
-              27 Division St, <br />
-              New York, NY 10002, USA
+            Jaipur,Rajasthan
             </p>
           </div>
         </div>
@@ -109,11 +93,10 @@ export default function Footer() {
           <p className="text-sm">
             &copy; 2024 Socialisthan. Powered by{" "}
             <Link
-              href="https://github.com/Priyansh61"
-              target="_blank"
+              href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
               className="text-sky-400 hover:underline"
             >
-              Priyansh61
+              Socialisthan Team
             </Link>
             .
           </p>

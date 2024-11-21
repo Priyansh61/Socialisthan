@@ -1,11 +1,16 @@
 import Link from "next/link";
+import React, { useState } from "react";
+
+const GetStarted = () => {
+  // State to control form visibility
+  const [showForm, setShowForm] = useState(false);}
 
 export default function CTA() {
   return (
-    <section
+    <section id="contact"
       className="relative bg-cover bg-center bg-no-repeat py-16 md:py-24"
       style={{
-        backgroundImage: "url('/images/cta-bg.jpg')", // Replace with your actual image path
+        backgroundImage: "url('/images/cta-bg.jpg')",
       }}
       aria-label="cta"
     >
