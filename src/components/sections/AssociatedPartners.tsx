@@ -7,7 +7,7 @@ const partners = [
   { name: "GlobalMedia", logo: "/images/partner-3.jpeg" },
   { name: "DataDynamics", logo: "/images/partner-6.png" },
   { name: "CreativeEdge", logo: "/images/partner-5.png" },
-  { name: "MarketPro", logo: "/images/mishi media solution.png" },
+  { name: "MarketPro", logo: "/images/partner1.png" },
 ]
 
 const trustIndicators = [

@@ -42,7 +42,7 @@ export default function Footer() {
                   href="https://www.instagram.com/socialisthan?igsh=MTlxdHU5eTBuOXVnMA=="
                   className="flex items-center hover:text-sky-400"
                 >
-                  <ion-icon name="logo-instagram" class="mr-3 text-xl"></ion-icon>
+                  <ion-icon name="logo-instagram" class="mr-3 text-xl">f</ion-icon>
                   Instagram
                 </Link>
               </li>
@@ -70,7 +70,7 @@ export default function Footer() {
                   href="tel:+123456789"
                   className="hover:text-sky-400 block"
                 >
-                  + 91-6377266348 ,
+                  + 91-6377266348 <br/>
                   + 91-7597842278
                 </a>
               </li>
