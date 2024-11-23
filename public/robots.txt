@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://socialisthan.com
+
+# Sitemaps
+Sitemap: https://socialisthan.com/sitemap.xml
