@@ -7,6 +7,13 @@ import GetQuoteModal from "../modals/GetQuote";
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,30 +29,30 @@ const Header: React.FC = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link
-                href="/"
+              <button
+                onClick={() => scrollToSection("home")}
                 className="text-gray-600 hover:text-sky-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
-              </Link>
-              <Link
-                href="/services"
+              </button>
+              <button
+                onClick={() => scrollToSection("services")}
                 className="text-gray-600 hover:text-sky-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Services
-              </Link>
-              <Link
-                href="/about"
+              </button>
+              <button
+                onClick={() => scrollToSection("about")}
                 className="text-gray-600 hover:text-sky-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
-              </Link>
-              <Link
-                href="/contact"
+              </button>
+              <button
+                onClick={() => scrollToSection("contact")}
                 className="text-gray-600 hover:text-sky-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Contact
-              </Link>
+              </button>
             </div>
           </div>
 
@@ -75,30 +82,30 @@ const Header: React.FC = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link
-              href="/"
+          <button
+              onClick={() => scrollToSection("home")}
               className="text-gray-600 hover:text-sky-500 block px-3 py-2 rounded-md text-base font-medium"
             >
               Home
-            </Link>
-            <Link
-              href="/services"
+            </button>
+            <button
+              onClick={() => scrollToSection("services")}
               className="text-gray-600 hover:text-sky-500 block px-3 py-2 rounded-md text-base font-medium"
             >
               Services
-            </Link>
-            <Link
-              href="/about"
+            </button>
+            <button
+              onClick={() => scrollToSection("about")}
               className="text-gray-600 hover:text-sky-500 block px-3 py-2 rounded-md text-base font-medium"
             >
               About
-            </Link>
-            <Link
-              href="/contact"
+            </button>
+            <button
+              onClick={() => scrollToSection("contact")}
               className="text-gray-600 hover:text-sky-500 block px-3 py-2 rounded-md text-base font-medium"
             >
               Contact
-            </Link>
+            </button>
           </div>
           <div className="pt-4 pb-3 border-t border-gray-200">
             <div className="px-2">

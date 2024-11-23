@@ -8,24 +8,25 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    position: "CEO, TechStart",
-    image: "/images/project-1.jpg",
-    quote: "InnoHub transformed our digital presence. Their innovative strategies doubled our online engagement in just three months."
+    name: "Abhishek Bhardwaj",
+    position: "Anchor & Singer",
+    image: "/images/panter13.jpg",
+    quote: "Socialisthan has truly elevated my digital presence! Their creative strategies and consistent efforts have helped me connect with a wider audience. I’m thrilled with the results and grateful for their dedication."
   },
   {
-    name: "Michael Chen",
-    position: "Marketing Director, GrowFast",
-    image: "/images/project-2.jpg",
-    quote: "The team at InnoHub is exceptional. Their data-driven approach to marketing has significantly improved our ROI."
+    name: "Dr Manuj Joshi",
+    position: "Physiotherapist",
+    image: "/images/parnter9.jpg",
+    quote: "Working with Socialisthan has been a pleasure! Their attention to detail and creative approach have helped me gain a strong digital presence. I highly recommend their services. Highly recommended and grateful!"
   },
   {
-    name: "Emily Rodriguez",
-    position: "Founder, EcoSolutions",
-    image: "/images/project-3.jpg",
-    quote: "Working with InnoHub was a game-changer for our startup. They helped us reach our target audience effectively and efficiently."
+    name: "Rohit singh shekhawat",
+    position: "Web developer",
+    image: "/images/parnter10.jpg",
+    quote: "Socialisthan has done an excellent job with my web development project. Their dedication and attention to detail really impressed me, and the results exceeded my expectations. Highly recommended and grateful!"
   }
 ]
+
 
 export default function TestimonialSlider() {
   const [currentIndex, setCurrentIndex] = useState(0)

@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400 py-16">
+    <footer className="bg-white text-black-400 py-16">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Footer Brand */}
           <div className="col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/images/logo.jpeg" // Replace with your logo path
+                src="/images/logo1.png" // Replace with your logo path
                 alt="Socialisthan Logo"
                 className="w-36"
               />
@@ -22,43 +22,27 @@ export default function Footer() {
 
           {/* Social Links */}
           <div>
-            <h5 className="text-lg font-semibold text-gray-200 mb-4">
+            <h5 className="text-lg font-semibold text-black-400 mb-4">
               Social
             </h5>
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="https://facebook.com"
+                  href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
                   className="flex items-center hover:text-sky-400"
                 >
-                  <ion-icon name="logo-facebook" class="mr-3 text-xl"></ion-icon>
-                  Facebook
+                  <ion-icon name="logo-Whatsapp" class="mr-3 text-xl"></ion-icon>
+                  Whatsapp
                 </Link>
               </li>
+              
+              
               <li>
                 <Link
-                  href="https://twitter.com"
+                  href="https://www.instagram.com/socialisthan?igsh=MTlxdHU5eTBuOXVnMA=="
                   className="flex items-center hover:text-sky-400"
                 >
-                  <ion-icon name="logo-twitter" class="mr-3 text-xl"></ion-icon>
-                  Twitter
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://linkedin.com"
-                  className="flex items-center hover:text-sky-400"
-                >
-                  <ion-icon name="logo-linkedin" class="mr-3 text-xl"></ion-icon>
-                  LinkedIn
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://instagram.com"
-                  className="flex items-center hover:text-sky-400"
-                >
-                  <ion-icon name="logo-instagram" class="mr-3 text-xl"></ion-icon>
+                  <ion-icon name="logo-instagram" class="mr-3 text-xl">f</ion-icon>
                   Instagram
                 </Link>
               </li>
@@ -67,7 +51,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h5 className="text-lg font-semibold text-gray-200 mb-4">
+            <h5 className="text-lg font-semibold text-black-400 mb-4">
               Contact
             </h5>
             <ul className="space-y-3">
@@ -77,7 +61,7 @@ export default function Footer() {
                   href="mailto:hello@socialisthan.com"
                   className="hover:text-sky-400 block"
                 >
-                  hello@socialisthan.com
+                  socialisthan2024@gmail.com
                 </a>
               </li>
               <li>
@@ -86,7 +70,8 @@ export default function Footer() {
                   href="tel:+123456789"
                   className="hover:text-sky-400 block"
                 >
-                  +123 456 789
+                  + 91-6377266348 <br/>
+                  + 91-7597842278
                 </a>
               </li>
             </ul>
@@ -94,12 +79,11 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h5 className="text-lg font-semibold text-gray-200 mb-4">
+            <h5 className="text-lg font-semibold text-black-400 mb-4">
               Address
             </h5>
             <p className="text-sm leading-relaxed">
-              27 Division St, <br />
-              New York, NY 10002, USA
+            Jaipur,Rajasthan
             </p>
           </div>
         </div>
@@ -109,11 +93,10 @@ export default function Footer() {
           <p className="text-sm">
             &copy; 2024 Socialisthan. Powered by{" "}
             <Link
-              href="https://github.com/Priyansh61"
-              target="_blank"
+              href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
               className="text-sky-400 hover:underline"
             >
-              Priyansh61
+              Socialisthan Team
             </Link>
             .
           </p>
