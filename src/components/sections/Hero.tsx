@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           {/* Hero Content */}
           <div className="hero-content text-center md:text-left">
-            <p className="text-lg text-sky-500 font-semibold">Socialisthan</p>
+            <p className="text-lg text-sky-500 font-semibold">SocialiSthan</p>
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
               Empowering Brands in the Digital World
