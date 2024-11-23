@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html>
       <Head>
+      <link rel="icon" href="/icon.ico" />
+        {/* Optional: Add other favicon formats */}
         <script
           type="module"
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

@@ -15,6 +15,7 @@ export default function Home() {
     <>
     <Head>
     <title>Socialisthan - Empowering Digital Strategies</title>
+    <link rel="icon" href="/icon.ico" />
     <meta
       name="description"
       content="Socialisthan provides cutting-edge digital marketing strategies to elevate your brand."
