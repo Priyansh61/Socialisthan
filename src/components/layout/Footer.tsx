@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-black-400 py-16">
+    <footer className="bg-gray-900 text-white py-16">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Footer Brand */}
           <div className="col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/images/logo1.png" // Replace with your logo path
+                src="/images/logo.png" // Replace with your logo path
                 alt="Socialisthan Logo"
                 className="w-36"
               />
@@ -22,7 +22,7 @@ export default function Footer() {
 
           {/* Social Links */}
           <div>
-            <h5 className="text-lg font-semibold text-black-400 mb-4">
+            <h5 className="text-lg font-semibold text-white mb-4">
               Social
             </h5>
             <ul className="space-y-3">
@@ -30,8 +30,9 @@ export default function Footer() {
                 <Link
                   href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
                   className="flex items-center hover:text-sky-400"
+                  target="_blank"
                 >
-                  <ion-icon name="logo-Whatsapp" class="mr-3 text-xl"></ion-icon>
+                  <ion-icon name="logo-Whatsapp" className="mr-3 text-xl"></ion-icon>
                   Whatsapp
                 </Link>
               </li>
@@ -41,8 +42,9 @@ export default function Footer() {
                 <Link
                   href="https://www.instagram.com/socialisthan?igsh=MTlxdHU5eTBuOXVnMA=="
                   className="flex items-center hover:text-sky-400"
+                  target="_blank"
                 >
-                  <ion-icon name="logo-instagram" class="mr-3 text-xl">f</ion-icon>
+                  <ion-icon name="logo-instagram" className="mr-3 text-xl"/>
                   Instagram
                 </Link>
               </li>
@@ -71,6 +73,11 @@ export default function Footer() {
                   className="hover:text-sky-400 block"
                 >
                   + 91-6377266348 <br/>
+                </a>
+                <a
+                  href="tel:+123456789"
+                  className="hover:text-sky-400 block"
+                >
                   + 91-7597842278
                 </a>
               </li>
@@ -83,7 +90,7 @@ export default function Footer() {
               Address
             </h5>
             <p className="text-sm leading-relaxed">
-            Jaipur,Rajasthan
+            Jaipur, Rajasthan
             </p>
           </div>
         </div>
@@ -93,25 +100,18 @@ export default function Footer() {
           <p className="text-sm">
             &copy; 2024 Socialisthan. Powered by{" "}
             <Link
-              href="https://whatsapp.com/channel/0029VavEHHh0Qealmt5Vbd0o"
+              href="https://github.com/Priyansh61"
               className="text-sky-400 hover:underline"
+              target="_blank"
             >
-              Socialisthan Team
+              Priyansh61
             </Link>
             .
           </p>
         </div>
       </div>
 
-      {/* Ionicons Script */}
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
-      <script
-        noModule
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-      ></script>
+
     </footer>
   );
 }

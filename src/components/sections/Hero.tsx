@@ -25,6 +25,7 @@ const Hero: React.FC = () => {
 
             <a
                href="https://wa.me/7597842278?text=Hello!%20I%20would%20like%20to%20chat%20with%20you."
+               target="_blank"
               className="btn btn-primary mt-6 inline-block bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600"
             >
               Get Started 

@@ -29,6 +29,7 @@ export default function CTA() {
         </h2>
         <Link
           href="https://wa.me/7597842278?text=Hello!%20I%20would%20like%20to%20chat%20with%20you."
+          target="_blank"
           className="inline-block px-6 py-3 bg-sky-500 text-white font-medium text-lg rounded-lg shadow hover:bg-sky-600 transition"
         >
           Get Started
