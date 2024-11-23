@@ -11,7 +11,8 @@ export default function Contact() {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
     setFormData({
       ...formData,
       [name]: type === "checkbox" ? checked : value,
@@ -114,7 +115,7 @@ export default function Contact() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center space-x-4">
             <div className="bg-sky-100 p-4 rounded-full">
-              <ion-icon name="mail-outline" class="text-sky-500 text-2xl"></ion-icon>
+              <ion-icon name="mail-outline" className="text-sky-500 text-2xl"></ion-icon>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Mail Here</h3>
@@ -128,7 +129,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center space-x-4">
             <div className="bg-sky-100 p-4 rounded-full">
-              <ion-icon name="map-outline" class="text-sky-500 text-2xl"></ion-icon>
+              <ion-icon name="map-outline" className="text-sky-500 text-2xl"></ion-icon>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Visit Here</h3>
@@ -140,7 +141,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center space-x-4">
             <div className="bg-sky-100 p-4 rounded-full">
-              <ion-icon name="headset-outline" class="text-sky-500 text-2xl"></ion-icon>
+              <ion-icon name="headset-outline" className="text-sky-500 text-2xl"></ion-icon>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Call Here</h3>

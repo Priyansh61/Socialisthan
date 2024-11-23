@@ -49,11 +49,11 @@ export default function TestimonialSlider() {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length)
   }
 
-  const getTestimonialIndex = (shift) => {
+  const getTestimonialIndex = (shift:number) => {
     return (currentIndex + shift + testimonials.length) % testimonials.length
   }
 
-  const renderTestimonial = (index, isMain = false) => {
+  const renderTestimonial = (index:number, isMain = false) => {
     const testimonial = testimonials[index]
     return (
       <Card className={`bg-gray ${isMain ? 'md:scale-105 z-10' : 'md:scale-90 opacity-70'}`}>
