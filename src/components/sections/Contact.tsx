@@ -141,7 +141,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center space-x-4">
             <div className="bg-sky-100 p-4 rounded-full">
-              <ion-icon name="headset-outline" className="text-sky-500 text-2xl"></ion-icon>
+              <ion-icon name="headset-outline" classNamep="text-sky-500 text-2xl"></ion-icon>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Call Here</h3>

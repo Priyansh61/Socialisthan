@@ -69,13 +69,13 @@ export default function Footer() {
               <li>
                 <p className="font-medium">Phone:</p>
                 <a
-                  href="tel:+123456789"
+                  href="tel:6377266348"
                   className="hover:text-sky-400 block"
                 >
                   + 91-6377266348 <br/>
                 </a>
                 <a
-                  href="tel:+123456789"
+                  href="tel:7597842278"
                   className="hover:text-sky-400 block"
                 >
                   + 91-7597842278
