@@ -63,7 +63,7 @@ export default function Footer() {
                   href="mailto:hello@socialisthan.com"
                   className="hover:text-sky-400 block"
                 >
-                  socialisthan2024@gmail.com
+                  hello@socialisthan.com
                 </a>
               </li>
               <li>
@@ -79,6 +79,12 @@ export default function Footer() {
                   className="hover:text-sky-400 block"
                 >
                   + 91-7597842278
+                </a>
+                <a
+                  href="tel:+917976133605"
+                  className="hover:text-sky-400 block"
+                >
+                  + 91-7976133605
                 </a>
               </li>
             </ul>

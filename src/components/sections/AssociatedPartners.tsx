@@ -11,10 +11,10 @@ const partners = [
 ]
 
 const trustIndicators = [
-  "3+ Years of Excellence",
-  "50+ Successful Projects",
+  "Full-Service Expertise",
+  "Dedicated Support",
   "98% Client Satisfaction",
-  "Award-Winning Agency",
+  "Customized Strategies",
 ]
 
 export default function AssociatedPartnersAndTrust() {
@@ -22,9 +22,9 @@ export default function AssociatedPartnersAndTrust() {
     <section className="w-full py-12 bg-gray-50">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Trusted Partners</h2>
+          <h2 className="text-3xl font-bold mb-4">Prestigious Brands We are working with</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We collaborate with industry leaders to deliver exceptional results for our clients
+          Trusted by Industry Leaders: Collaborating with Prestigious Clients to Drive Digital Success
           </p>
         </div>
 
